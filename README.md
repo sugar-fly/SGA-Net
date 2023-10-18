@@ -19,12 +19,12 @@ We recommend using Anaconda or Miniconda. To setup the environment, follow the i
 ```bash
 conda create -n sganet python=3.8 --yes
 conda activate sganet
-conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=11.0 -c pytorch --yes
+conda install pytorch==1.7.1 torchvision==0.8.2 cudatoolkit=11.0 -c pytorch --yes
 python -m pip install -r requirements.txt
 ```
 
 ### Dataset
-Follow the instructions provided [here](https://github.com/CARRLIANSS/early_learning/tree/main/OANet) for downloading and preprocessing datasets. 
+Follow the instructions provided [here](https://github.com/CARRLIANSS/early_learning/blob/main/OANet/README.md) for downloading and preprocessing datasets. 
 The packaged dataset should be put in the `data/` and directory structure should be: 
 ```
 $SGA-Net
