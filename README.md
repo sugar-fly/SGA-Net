@@ -10,7 +10,7 @@ Specifically, a graph attention block is proposed to enhance the representationa
 Meanwhile, a sparse graph transformer is developed to capture rich structural information of sparse graphs and greatly slash time and memory consumption. 
 Additionally, a simple graph-context fusion block is introduced to adaptively capture topological information from different layers by implicitly modeling the interdependence between these graph contexts. 
 
-<div align=center><img src ="figs/Coarse-to-Fine.jpg" style="zoom:60%;"/></div>
+<div align=center><img src ="assets/Coarse-to-Fine.jpg" style="zoom:60%;"/></div>
 
 ## Requirements
 
