@@ -50,6 +50,22 @@ nohup python -u train_single_gpu.py >./logs/sganet_yfcc.txt 2>&1 &
 python test.py
 ```
 
+## How to use demo?
+1. If your two images have camera pose ground truth and intrinsics, it is recommended to run `demo_withGT.py` script. The true matches and false matches of the visualization results are based on the epipolar distance (< 1e-4). [Here](https://drive.google.com/file/d/1CM1SMD6P-eVfk9z-Bnz7HrB0CeGJSSfj/view?usp=drive_link), we provide a scene of YFCC100M with ground truth. The scene should be put in the `assets/` and directory structure should be:
+```
+$SGA-Net
+    |----assets
+      |----sacre_coeur
+          |----test
+              |----calibration
+              |----images
+              |----visibility
+              ...
+```
+
+2. If you want to use our method to match any two images, it is recommended to run `demo_withoutGT.py` script. 
+
+
 ## Acknowlegment
 This repo benefits from [OANet](https://github.com/zjhthu/OANet) and [CLNet](https://github.com/sailor-z/CLNet). Thanks for their wonderful works. 
 
