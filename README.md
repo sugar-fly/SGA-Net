@@ -63,8 +63,6 @@ $SGA-Net
               ...
 ```
 
-2. If you want to use our method to match any two images, it is recommended to run `demo_withoutGT.py` script. 
-
 
 ## Acknowlegment
 This repo benefits from [OANet](https://github.com/zjhthu/OANet) and [CLNet](https://github.com/sailor-z/CLNet). Thanks for their wonderful works. 
