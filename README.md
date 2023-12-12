@@ -24,7 +24,7 @@ python -m pip install -r requirements.txt
 ```
 
 ### Dataset
-Follow the instructions provided [here](https://github.com/CARRLIANSS/early_learning/blob/main/OANet/README.md) for downloading and preprocessing datasets. 
+Follow the instructions provided [here](https://github.com/zjhthu/OANet) for downloading and preprocessing datasets. 
 The packaged dataset should be put in the `data/` and directory structure should be: 
 ```
 $SGA-Net
