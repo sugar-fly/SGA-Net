@@ -43,7 +43,7 @@ class Config(object):
         self.canonical_bs = 32
         self.canonical_lr = 1e-3
         self.writer_dir = os.path.join('runs', datetime.now().strftime("[" + self.model + "]-" + "[%Y_%m_%d]-[%H_%M_%S]-[debugging]"))
-        self.epochs = 30  # yfcc: 30 epochs is approximately equal to 500k iterations; sun3d: 16 epochs is approximately equal to 500k iterations
+        self.epochs = 29  # yfcc: 29 epochs is approximately equal to 500k iterations; sun3d: 16 epochs is approximately equal to 500k iterations
         self.checkpoint_path = './checkpoint/' + self.model + '/'
         self.resume = './checkpoint/' + self.model + '/checkpoint0.pth'
         if self.use_fundamental:
